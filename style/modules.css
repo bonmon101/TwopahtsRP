@@ -1,12 +1,18 @@
-#navbar {
+.header {
     border:5px solid red;
-    display:inline-flex;
+    /* justify-content: space-around; */
+    display:flex;
     align-items: stretch;
-    height: 30em;
+    /* height: 190px;  actual height of image*/
+    height: 120px;
     width: 99%;
     /* display:flex; */
 }
 
+#logo {
+    height:100%;
+    width:100%;
+}
 
 ul {
     list-style-type: none;
@@ -17,7 +23,7 @@ ul {
   }
   
   li {
-    float: left;
+    float: right;
   }
   
   li a {
@@ -28,7 +34,8 @@ ul {
     text-decoration: none;
   }
   
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
+ 
+  
+li a:hover {
     background-color: #111;
   }
