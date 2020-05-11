@@ -1,15 +1,34 @@
-li {
-    /* display:inline;
-    margin:auto; */
-    float: left;
+#navbar {
+    border:5px solid red;
+    display:inline-flex;
+    align-items: stretch;
+    height: 30em;
+    width: 99%;
+    /* display:flex; */
 }
+
 
 ul {
-    background-color: #36c4f7;
-}
-
-a {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
     display: block;
-    padding: 8px;
-    
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
   }
