@@ -1,0 +1,15 @@
+li {
+    /* display:inline;
+    margin:auto; */
+    float: left;
+}
+
+ul {
+    background-color: #36c4f7;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    
+  }
